@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GH Pages Tutorial</title>
+    <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <h1>CHICKENS!</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam beatae rerum consectetur
-      itaque excepturi voluptatum, praesentium sequi error voluptate, commodi, esse quis alias
-      temporibus tenetur rem? Cupiditate, tempora. Maxime, magni.
-    </p>
+    <svg viewBox="0 0 600 300">
+      <!-- Symbol-->
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="50%" dy=".35em">Gh Is Cool!</text>
+      </symbol>
+      <!-- Duplicate symbols-->
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+    </svg>
   </body>
 </html>
